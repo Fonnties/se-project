@@ -1,0 +1,91 @@
+FIGMA LINK:
+https://www.figma.com/proto/g648AQmF2UdYD5tGTBmjK6/Hospital-Management---Queue-Management?node-id=99-70&p=f&t=k0bkAxwrHJoOMZQC-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=99%3A70
+
+Our group designed a hospital Queue management system that helps organise the patient queues in a hospital. 
+The system can allows patients to register track their turn which can help reduce waiting time and making the patient flow more efficient.
+
+Link our HealthCare Plus Mobile App to Definition of Done
+____________________________________________________________________
+***Functional Features Implemented
+***All core functions of the system must be implemented and working according to the project requirements.
+
+1. User Management
+    - Patients, Doctors, and Admin can successfully register an account.  
+    - Users can log in and log out securely.
+    - The system correctly distinguishes between different user roles.
+
+2. Appointment Management
+    - Patients can select hospital departments.
+    - Patients can choose available date and time slots
+    - Patients can view their upcoming and completed appointments.
+    - Patients can cancel appointments when necessary.
+    - The system prevents double booking for the same time slot.
+    - The system sends appointment confirmation notifications.
+
+3. Queue Management
+    - The system automatically generates queue numbers.
+    - Patients can view the current queue status.
+    - The system displays estimated waiting time.
+
+4. Automated Notifications
+    - Patients receive push notifications or alerts when their turn is approaching.
+
+5. Admin Dashboard
+    - Admin can manage departments.
+    - Admin can view and manage appointment records.
+    - Admin can view daily patient numbers.
+    - Admin can view total daily appointments.
+    - Admin can view the total number of staff members.
+
+6. Doctor Dashboard
+   - Doctors can view and manage appointment records.
+   - Doctors can see daily patient numbers.
+   - Doctors can see daily appointment counts.
+
+***Non-Functional Requirements Met
+
+1. Security
+   - User passwords are encrypted before being stored in the database.
+   - Only authorized users can access admin functions.
+
+2. Performance
+  - System pages load within 3 seconds under normal conditions.
+  - The system supports at least 100 concurrent users in the prototype environment.
+
+3. Usability
+   - The interface is simple, clear, and easy to navigate.
+   - The application works on mobile devices and desktop browsers.
+
+4. Reliability
+   - The system is accessible at all times during testing and demonstration.
+   - Appointment data is automatically saved and stored in the database.
+
+5. Maintainability
+   - The system uses modular and object-oriented design.
+   - Departments and schedules can be updated easily without major code changes.
+
+***Testing and Quality Assurance
+Before a feature is considered complete:
+   - All functions are tested by the development team.
+   - Major bugs or system crashes are fixed.
+   - Key workflows (register → login → book appointment → queue tracking) operate successfully.
+   - The system is ready for prototype demonstration.
+
+***Documentation Completed
+The prototype is considered done when:
+   - System functional requirements and non-functional requirements are documented.
+   - User roles and system features are clearly explained.
+   - Screenshots or UI demonstrations are prepared for the final presentation or report.
+
+***Prototype Demonstration Ready
+The project is considered complete when:
+   - The system can be demonstrated end-to-end:
+   - Patient registers and books appointment
+   - Queue number is generated
+   - Doctor views appointment
+   - Admin monitors system data
+   - All main system features can be shown without errors during presentation.
+
+
+
+
