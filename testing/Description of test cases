@@ -1,0 +1,28 @@
+Test Cases
+1. LOGIN PAGE TESTING
+   -Test the admin login page with correct password and username.
+   -Test the doctor login page with correct password and username.
+   -Test the patient login page with incorrect password entered.
+   -Test the patient login page with correct password and username.
+
+2. REGISTER PAGE TESTING
+   - Test the patient register page.
+
+3. APPOINTMENT BOOKING TESTING
+   - Test the correct flow of booking the appointment.
+   - Test whether the appointment booking system can prevent double booking appointment
+    of same date and time.
+
+4. APPOINTMENT CANCELING TESTING
+   - Test whether the upcoming appointment can be cancelled or not.
+
+5. QUEUE STATUS DISPLAYING TESTING
+   - Test the system whether can generate queue number autonmatically once
+    the appointment is confirmed.
+   - Test the system whether can predict the waiting time of each patient.
+   - Test the system whether can display overview of real time queue status.
+
+6. NOTIFICATION ALERT TESTING
+   -Test the system whether can send SMS alert to the patient when the patient
+    is in the next queue.
+   -Test the system whether can send notification once the appointment is confirmed.
